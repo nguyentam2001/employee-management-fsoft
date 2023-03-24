@@ -1,0 +1,19 @@
+.t-navbar-height{
+    height: calc(100vh - var(--header-height));
+    background-color: var(--secondary--color);
+   
+}
+
+.border-nav-right{
+    width:1px;
+    height: calc(100vh - var(--header-height)) ;
+    border-right: 1px solid #ccc;
+}
+
+@media screen and (max-width: 1200px){
+    .border-nav-right{
+        width: 100%;
+        height: auto;
+    }
+    
+}
